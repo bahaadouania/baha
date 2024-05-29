@@ -1,0 +1,22 @@
+{
+  "batiments": [
+    {
+      "id": 1,
+      "nom": "Batiment A",
+      "nbretage": 3,
+      "statut": true
+    },
+    {
+      "id": 2,
+      "nom": "Batiment B",
+      "nbretage": 5,
+      "statut": false
+    },
+    {
+      "id": "b044",
+      "nom": "narjess",
+      "nbretage": 7,
+      "statut": true
+    }
+  ]
+}

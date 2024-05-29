@@ -1,0 +1,16 @@
+<h2>{{ isEdit ? 'Modifier' : 'Ajouter' }} un Bâtiment</h2>
+<form (ngSubmit)="saveBatiment()">
+  <div>
+    <label for="nom">Nom:</label>
+    <input type="text" id="nom" [(ngModel)]="batiment.nom" name="nom" required>
+  </div>
+  <div>
+    <label for="nbretage">Nombre d'étages:</label>
+    <input type="number" id="nbretage" [(ngModel)]="batiment.nbretage" name="nbretage" required>
+  </div>
+  <div>
+    <label for="statut">Statut:</label>
+    <input type="checkbox" id="statut" [(ngModel)]="batiment.statut" name="statut">
+  </div>
+  <button type="submit">Enregistrer</button>
+</form>
